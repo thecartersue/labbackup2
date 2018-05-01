@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil\EE319KwareSpring2018\lab-10-c-spaceinvader-zane-and-jacob-master\SpaceInvaders.uvproj
+Project File Date:  04/26/2018
+
+<h2>Output:</h2>
+Build target 'SpaceInvaders'
+compiling SpaceInvaders.c...
+linking...
+Program Size: Code=4056 RO-data=25600 RW-data=196 ZI-data=1124  
+".\SpaceInvaders.axf" - 0 Error(s), 0 Warning(s).
+
+Program Size: Code=4056 RO-data=25600 RW-data=196 ZI-data=1124  
+".\SpaceInvaders.axf" - 0 Error(s), 1 Warning(s).
+ bullet_sprite, forward, 5, 5, 0, -1,alive};
+SpaceInvaders.c(104): error:  #20: identifier "enemy_backward" is undefined
+  sp_t enemy = {50, 50, enemy_backward, forward, 30, 30,alive};
+SpaceInvaders.c(106): error:  #20: identifier "erase_sprite" is undefined
+  sp_t erase = {0, 0, erase_sprite, backwards, 30, 30,alive};
+SpaceInvaders.c(108): error:  #20: identifier "gun_small" is undefined
+  sp_t mini_gun = {50, 140, gun_small, backwards, 40, 84,alive};
+SpaceInvaders.c(109): error:  #20: identifier "solider_small" is undefined
+  sp_t mini_solider = {50, 50, solider_small, backwards, 70, 70,alive};
+SpaceInvaders.c(146): error:  #20: identifier "sprite_right" is undefined
+                        character.image = sprite_right;
+SpaceInvaders.c(151): error:  #20: identifier "sprite_backward" is undefined
+                        character.image = sprite_backward;
+SpaceInvaders.c(156): error:  #20: identifier "sprite_left" is undefined
+                        character.image = sprite_left;
+SpaceInvaders.c: 0 warnings, 9 errors
+".\SpaceInvaders.axf" - 9 Error(s), 0 Warning(s).
+Target not created
